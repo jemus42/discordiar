@@ -15,7 +15,7 @@ Might as well use `curl` at that point.
 You can install the released version of discordiar from ~~[CRAN](https://CRAN.R-project.org)~~ GitHub with:
 
 ``` r
-install.remotes::install_github("jemus42/discordiar")
+remotes::install_github("jemus42/discordiar")
 ```
 
 ## Example
@@ -25,7 +25,7 @@ Send a message to a pre-configured webhook:
 ```r
 library(discordiar)
 
-# You need a webhook URL
+# You need a webhook URL, you can set one globally or pass one as an argument.
 options(discordiar.webhook_url = "<my_webhook_url>")
 
 # These are optional
