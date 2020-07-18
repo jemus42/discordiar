@@ -4,9 +4,10 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of discordiar is to send simple webhook to discord from R.  
-At the moment, it does basically just that. Just sending messages to a webhook URL.
-maybe with an embedded image URL.  
+The goal of discordiar is to send simple webhook messages to discord from R.  
+At the moment, it does basically just that.  
+Just sending messages to a webhook URL.  
+Maybe with an embedded image URL.  
 Might as well use `curl` at that point.
 
 ## Installation
